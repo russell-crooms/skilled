@@ -1,0 +1,44 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 818px;
+    margin-top: 185px;
+}
+
+.hero-container-left {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.hero-header {
+    font-size: 56px;
+    font-weight: 500;
+    color: #13183F;
+    line-height: 90px;
+}
+
+.hero-para {
+    font-size: 27px;
+    line-height: 28px;
+    color: #83869A;
+}
+
+.hero-button button{
+    border-radius: 50px;
+    margin-top: 20px; 
+    background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.hero-container-right {
+    position: absolute;
+    top: -14%;
+    right: -17%;
+}
