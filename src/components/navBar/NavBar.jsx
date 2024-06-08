@@ -1,9 +1,13 @@
-import React from 'react'
+import logo from '../../assets/logo-dark.svg';
+import './NavBar.css';
 
-const navBar = () => {
+const NavBar = () => {
   return (
-    <div>navBar</div>
+    <div className="navbar-container">
+        <img src={logo} alt="Skilled logo" className="logo"/>
+        <div className="nav-button">Get Started</div>
+    </div>
   )
 }
 
-export default navBar
+export default NavBar
