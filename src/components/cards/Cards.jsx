@@ -21,7 +21,7 @@ const Cards = () => {
           </p>
           <p className="cards-get-started row-one">Get Started</p>
         </div>
-        <div className="white-card">
+        <div className="white-card design">
           <img src={icon_design} alt="" />
           <h2>Design</h2>
           <p>
@@ -39,7 +39,7 @@ const Cards = () => {
           </p>
           <p className="cards-get-started">Get Started</p>
         </div>
-        <div className="white-card design">
+        <div className="white-card">
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
           <p>
