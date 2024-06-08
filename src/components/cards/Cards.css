@@ -1,0 +1,40 @@
+.card-container {
+    margin-top: 199px;
+    display: flex;
+    align-items: center;
+    padding-left: 176px;
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+}
+
+.colorful-card {
+    border: 1px solid green;
+    border-radius: 15px;
+}
+
+.white-card {
+    border: 1px solid brown; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px; 
+    padding-bottom: 40px;
+    gap: 25px;
+    line-height: 24px;
+}
+
+.white-card img {
+    width: 56px;
+    z-index: 1;
+    position: relative;
+    bottom: 20px;
+}
+
+
