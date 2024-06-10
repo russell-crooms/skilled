@@ -5,6 +5,10 @@
   font-family: 'Plus Jakarta Sans';
 }
 
+#root {
+
+} 
+
 body {
-  background: #FFFFFF;
+  background: linear-gradient(180deg, white 0%, #F0F1FF 100%);
 }

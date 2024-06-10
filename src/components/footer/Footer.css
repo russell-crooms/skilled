@@ -1,5 +1,4 @@
 .footer {
-    border: 1px solid green;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +12,7 @@
 }
 
 .footer-button {
-    margin-right: 165px;
+    margin-right: 235px;
     color: white;
     padding: 20px 35px;
     font-size: 20px;
