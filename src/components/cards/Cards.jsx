@@ -10,7 +10,7 @@ const Cards = () => {
     <div className="card-container">
       <div className="cards">
         <div className="colorful-card">
-          <h2>Check out our most popular courses!</h2>
+          <h2>Check out our <br></br> most popular courses!</h2>
         </div>
         <div className="white-card">
           <img src={icon_animation} alt="" />

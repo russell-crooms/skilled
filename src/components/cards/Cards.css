@@ -9,17 +9,30 @@
     display: grid;
     grid-template-rows: 300px 300px 300px;
     grid-template-columns: 300px 300px 300px;
-    grid-gap: 50px;
+    grid-gap: 100px;
 }
 
 .colorful-card {
     border: 1px solid green;
     border-radius: 15px;
+    width: 375px;
+    background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
+    color: #FFFFFF;
 }
 
-.white-card {
-    border: 1px solid brown; 
+.colorful-card h2 {
+    border: 1px solid blue;
+    display: flex; 
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 80px;
+    font-size: 32px;
+}
+
+.white-card { 
     border-radius: 15px;
+    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +41,7 @@
     padding-bottom: 40px;
     gap: 25px;
     line-height: 24px;
+    width: 375px;
 }
 
 .white-card img {
@@ -38,5 +52,5 @@
 }
 
 .design {
-    gap: 32px;
+    gap: 31px;
 }
