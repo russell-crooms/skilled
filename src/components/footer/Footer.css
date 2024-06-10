@@ -1,0 +1,23 @@
+.footer {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #13183F;
+    height: 120px;
+    width: 100%;
+}
+
+.footer-logo {
+    margin-left: 165px;
+}
+
+.footer-button {
+    margin-right: 165px;
+    color: white;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 450;
+    background: linear-gradient(360deg, rgb(72, 81, 255), rgba(240, 42, 166));
+    border-radius: 50px;
+}
