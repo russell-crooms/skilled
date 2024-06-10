@@ -49,6 +49,16 @@
     bottom: 20px;
 }
 
+.white-card p {
+    color: #83869A;
+}
+
+.white-card .cards-get-started {
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .design {
     gap: 31px;
 }
