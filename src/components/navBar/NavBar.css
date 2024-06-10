@@ -3,16 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 165px;
-    padding-right: 165px;
-    padding-top: 24px;
+    margin-left: 166px;
+    margin-top: 38.7px;
 }
 
-.navbar-container div {
+.nav-button {
     border-radius: 50px;
     background: #13183F;
     color: #FFFFFF;
     padding: 20px 35px;
-    font-size: 20px;
-    font-weight: 450;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 400px;
 }
