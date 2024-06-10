@@ -1,8 +1,8 @@
 .hero-container {
     display: flex;
     align-items: center;
-    padding-left: 165px;
-    padding-right: 818px;
+    margin-left: 165px;
+    margin-right: 818px;
     margin-top: 185px;
 }
 
@@ -14,21 +14,21 @@
 
 .hero-header {
     font-size: 56px;
-    font-weight: 500;
+    font-weight: 800;
     color: #13183F;
     line-height: 90px;
 }
 
 .hero-para {
-    font-size: 27px;
+    font-size: 18px;
     line-height: 28px;
     color: #83869A;
 }
 
-.hero-button button{
+.hero-button button {
     border-radius: 50px;
     margin-top: 20px; 
-    background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     outline: none;
     border: none;
     color: #FFFFFF;
