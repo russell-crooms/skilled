@@ -13,7 +13,6 @@
 }
 
 .colorful-card {
-    border: 1px solid green;
     border-radius: 15px;
     width: 375px;
     background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -21,7 +20,6 @@
 }
 
 .colorful-card h2 {
-    border: 1px solid blue;
     display: flex; 
     align-items: center;
     margin-left: 32px;
@@ -32,7 +30,6 @@
 
 .white-card { 
     border-radius: 15px;
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
