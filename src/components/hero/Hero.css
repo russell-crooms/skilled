@@ -1,8 +1,8 @@
 .hero-container {
     display: flex;
     align-items: center;
-    margin-left: 165px;
-    margin-top: 185px;
+    margin-left: 405px;
+    margin-top: 225px;
 }
 
 .hero-container-left {
@@ -12,14 +12,14 @@
 }
 
 .hero-header {
-    font-size: 56px;
+    font-size: 49px;
     font-weight: 800;
     color: #13183F;
-    line-height: 90px;
+    line-height: 70px;
 }
 
 .hero-para {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     color: #83869A;
 }
@@ -39,5 +39,5 @@
 .hero-container-right {
     position: absolute;
     top: -15%;
-    right: -16%;
+    right: -9%;
 }

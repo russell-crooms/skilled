@@ -1,6 +1,6 @@
 .card-container {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,9 +9,10 @@
 
 .cards {
     display: grid;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-rows: 350px 350px;
     grid-template-columns: 322px 322px 322px;
     grid-gap: 80px;
+    margin-bottom: 200px;
 }
 
 .colorful-card {
