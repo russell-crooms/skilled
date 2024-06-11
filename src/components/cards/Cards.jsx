@@ -25,7 +25,7 @@ const Cards = () => {
           <img src={icon_design} alt="" />
           <h2>Design</h2>
           <p>
-            Create beautiful, usable interfaces to help shape the future of how
+            Create beautiful, usable <br></br>interfaces to help shape the future<br></br> of how
             the web looks.
           </p>
           <p className="cards-get-started">Get Started</p>
@@ -34,7 +34,7 @@ const Cards = () => {
           <img src={icon_photography} alt="" />
           <h2>Photography</h2>
           <p>
-            Explore critical fundamentals like lighting, composition, and focus
+            Explore critical fundamentals like lighting, composition, and focus<br></br>
             to capture exceptional photos.
           </p>
           <p className="cards-get-started">Get Started</p>
@@ -43,8 +43,8 @@ const Cards = () => {
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
           <p>
-            All you need to know to get started investing in crypto. Go from
-            beginner to advanced with this 54 hour course.
+            All you need to know to get<br></br> started investing in crypto. Go <br></br>from
+            beginner to advanced with<br></br> this 54 hour course.
           </p>
           <p className="cards-get-started">Get Started</p>
         </div>

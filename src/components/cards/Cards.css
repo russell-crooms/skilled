@@ -40,8 +40,8 @@
     justify-content: center;
     padding-left: 32px;
     padding-right: 32px; 
-    padding-bottom: 40px;
-    gap: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
     line-height: 24px;
     width: 375px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
@@ -61,6 +61,7 @@
 
 .white-card p {
     color: #83869A;
+    font-size: 18px;
 }
 
 .white-card .cards-get-started {
