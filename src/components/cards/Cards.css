@@ -45,13 +45,14 @@
     line-height: 24px;
     width: 375px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
 }
 
 .white-card img {
     width: 56px;
     z-index: 1;
     position: relative;
-    bottom: 10px;
+    bottom: 15px;
 }
 
 .white-card h2 {
