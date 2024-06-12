@@ -77,10 +77,6 @@
     height: 250px;
 }
 
-.design h2 {
-  
-}
-
 .design p {
     margin-top: 15px;
     padding-top: 18px;
@@ -92,6 +88,32 @@
     display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
+}
+
+.photography img {
+
+}
+
+.photography-container {
+    width: 350px;
+    height: 270px;
+}
+
+.photography-container h2 {
+    padding-bottom: 7px;
+}
+
+.photography-container p {
+    margin-top: 17px;
+    padding-top: 18px;
+    width: 286px;
+    height: 75px;
+}
+
+.photography-get-started {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
 }
 
 

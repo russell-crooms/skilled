@@ -34,12 +34,14 @@ const Cards = () => {
         </div>
         <div className="white-card photography">
           <img src={icon_photography} alt="" />
+          <div className="photography-container">
           <h2>Photography</h2>
           <p>
             Explore critical fundamentals like lighting, composition, and focus<br></br>
             to capture exceptional photos.
           </p>
-          <p className="cards-get-started">Get Started</p>
+          <p className="cards-get-started photography-get-started">Get Started</p>
+          </div>
         </div>
         <div className="white-card">
           <img src={icon_crypto} alt="" />
