@@ -15,8 +15,9 @@
     font-size: 18px;
     font-weight: 700;
     margin-right: 740px;
+    z-index: 1;
 }
 
 .nav-button:hover {
-    opacity: 100%;
+    opacity: 60%;
 }
