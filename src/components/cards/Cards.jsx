@@ -13,7 +13,7 @@ const Cards = () => {
           <h2>Check out our <br></br> most popular courses!</h2>
         </div>
         <div className="white-card">
-          <img src={icon_animation} alt="" />
+          <img src={icon_animation} className="icon-1" alt="" />
           <h2>Animation</h2>
           <p>
             Learn the latest animation techniques to create stunning motion
@@ -23,14 +23,16 @@ const Cards = () => {
         </div>
         <div className="white-card design">
           <img src={icon_design} alt="" />
+          <div className="design-container">
           <h2>Design</h2>
           <p>
-            Create beautiful, usable <br></br>interfaces to help shape the future<br></br> of how
+            Create beautiful, usable interfaces to help shape the future of how
             the web looks.
           </p>
-          <p className="cards-get-started">Get Started</p>
+          <p className="cards-get-started design-get-started">Get Started</p>
+          </div>
         </div>
-        <div className="white-card">
+        <div className="white-card photography">
           <img src={icon_photography} alt="" />
           <h2>Photography</h2>
           <p>

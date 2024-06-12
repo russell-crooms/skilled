@@ -35,24 +35,22 @@
 
 .white-card { 
     border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 32px;
-    padding-right: 32px; 
-    padding-bottom: 50px;
+    padding-right: 32px;
+    padding-bottom: 80px;
     gap: 40px;
-    line-height: 24px;
-    width: 375px;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
-    background: #FFFFFF;
 }
 
 .white-card img {
     width: 56px;
     z-index: 1;
     position: relative;
-    bottom: 15px;
 }
 
 .white-card h2 {
@@ -69,4 +67,33 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+.design img {
+    margin-top: 2px;
+}
+
+.design-container {
+    width: 350px;
+    height: 250px;
+}
+
+.design h2 {
+  
+}
+
+.design p {
+    margin-top: 15px;
+    padding-top: 18px;
+    width: 286px;
+    height: 84px;
+}
+
+ .design-get-started {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+
+
 
