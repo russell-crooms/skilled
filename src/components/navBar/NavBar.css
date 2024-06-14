@@ -1,9 +1,10 @@
 .navbar-container {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 405px;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 38.7px;
 }
 
@@ -14,11 +15,34 @@
     padding: 20px 35px;
     font-size: 18px;
     font-weight: 700;
-    margin-right: 740px;
-    z-index: 1;
+    z-index: 100;
     cursor: pointer;
 }
 
 .nav-button:hover {
     opacity: 60%;
 }
+
+/* @media (max-width: 2560px) {
+    .navbar-container {
+        width: 1500px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+    .nav-button {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbar-container {
+        width: 1100px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+*/

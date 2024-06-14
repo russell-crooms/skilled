@@ -118,6 +118,15 @@
     margin-top: 5px;
 }
 
-
+/*
+@media (max-width: 2560px) {
+    .card-container {
+        padding-top: 0; 
+        height: 900px;
+        align-items: center;
+        border: 1px solid green;
+    }
+}
+*/
 
 

@@ -1,7 +1,8 @@
 .hero-container {
     display: flex;
     align-items: center;
-    margin-left: 405px;
+    margin-left: 350px; 
+    width: 600px;
     margin-top: 225px;
 }
 
@@ -43,6 +44,20 @@
 
 .hero-container-right {
     position: absolute;
-    top: -15%;
-    right: -9%;
+    top: -14%;
+    right: -8%;
 }
+
+/*
+@media (max-width: 2560px) {
+    .hero-container {
+        border: 1px solid green;
+        width: 700px;
+        margin-left: 500px;
+    }
+    .hero-container-right {
+        top: -9%;
+        right: 3%;
+    }
+}
+*/    
