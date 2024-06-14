@@ -1,5 +1,6 @@
 import "./Hero.css";
 import hero_image_desktop from "../../assets/image-hero-desktop.png";
+import hero_image_tablet from "../../assets/image-hero-tablet.webp";
 
 const Hero = () => {
   return (
@@ -20,6 +21,9 @@ const Hero = () => {
       </div>
       <div className="hero-container-right">
         <img src={hero_image_desktop} alt="" />
+      </div>
+      <div className="hero-image-tablet">
+      <img src={hero_image_tablet} alt="" />
       </div>
     </div>
   );
