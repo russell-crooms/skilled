@@ -34,6 +34,11 @@
     padding: 20px 35px;
     font-size: 20px;
     font-weight: 450;
+    cursor: pointer;
+}
+
+.hero-button button:hover {
+    opacity: 60%;
 }
 
 .hero-container-right {
