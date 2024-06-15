@@ -12,7 +12,7 @@ const Cards = () => {
         <div className="colorful-card">
           <h2>Check out our <br></br> most popular courses!</h2>
         </div>
-        <div className="white-card">
+        <div className="white-card tablet-2">
           <img src={icon_animation} className="icon-1" alt="" />
           <h2>Animation</h2>
           <p>
@@ -43,16 +43,16 @@ const Cards = () => {
           <p className="cards-get-started photography-get-started">Get Started</p>
           </div>
         </div>
-        <div className="white-card">
+        <div className="white-card tablet-2">
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
-          <p>
+          <p className="crypto-tablet">
             All you need to know to get<br></br> started investing in crypto. Go <br></br>from
             beginner to advanced with<br></br> this 54 hour course.
           </p>
-          <p className="cards-get-started">Get Started</p>
+          <p className="cards-get-started crypto-get-started">Get Started</p>
         </div>
-        <div className="white-card">
+        <div className="white-card tablet-2">
           <img src={icon_business} alt="" />
           <h2>Business</h2>
           <p>

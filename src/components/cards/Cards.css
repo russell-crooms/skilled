@@ -129,24 +129,61 @@
         grid-template-rows: 310px 310px 310px;
         grid-template-columns: 320px 322px;
         grid-row-gap: 0px;
-        grid-column-gap: 20px;
+        grid-column-gap: 33px;
         width: 700px;
         height: 600px;
         margin-bottom: 0px;
     }
-    
+
     .colorful-card {
         width: 325px;
         height: 260px;
         box-shadow: none;
     }
     .white-card {
-        width: 325px;
+        width: 339px;
         height: 260px;
         box-shadow: none;
     }
+    .white-card h2 {
+        font-size: 20px;
+    }
+    .white-card p {
+        line-height: 26px;
+        width: 290px;
+        height: 78px;
+        font-weight: 400;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
     .white-card img {
-        margin-bottom: -15px;
+        bottom: -15%;
+    }
+
+   .tablet-2 {
+        gap: 25px;
+    }
+    .tablet-2 img {
+
+    }
+    .tablet-2 h2 {
+   
+    }
+    .tablet-2 p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 286px;
+        height: 78px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .crypto-tablet {
+
+    }
+    .crypto-get-started {
+        height: 28px;
+        width: 108px;
+        margin-top: 10px;
     }
 }
 
