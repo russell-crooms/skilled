@@ -118,15 +118,36 @@
     margin-top: 5px;
 }
 
-/*
-@media (max-width: 2560px) {
+@media (max-width: 768px) {
     .card-container {
-        padding-top: 0; 
-        height: 900px;
-        align-items: center;
-        border: 1px solid green;
+        margin-top: 10px;
+        margin-bottom: 200px;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-rows: 310px 310px 310px;
+        grid-template-columns: 320px 322px;
+        grid-row-gap: 0px;
+        grid-column-gap: 20px;
+        width: 700px;
+        height: 600px;
+        margin-bottom: 0px;
+    }
+    
+    .colorful-card {
+        width: 325px;
+        height: 260px;
+        box-shadow: none;
+    }
+    .white-card {
+        width: 325px;
+        height: 260px;
+        box-shadow: none;
+    }
+    .white-card img {
+        margin-bottom: -15px;
     }
 }
-*/
 
 
