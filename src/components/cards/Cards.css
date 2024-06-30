@@ -245,10 +245,34 @@
 
 @media (max-width: 425px) {
   .card-container {
-    margin-top: 500px;
+    margin-top: 290px;
+  }
+  .cards {
+    grid-template-columns: 280px;
+    margin-left: -80px;
+  }
+  .colorful-card {
+    width: 90vw;
+    height: 15vh;
+  }
+  .colorful-card h2 {
+    margin-top: 30px;
   }
 }
 
 @media (max-width: 375px) {
-
+  .card-container {
+    margin-top: 290px;
+  }
+  .cards {
+    grid-template-columns: 280px;
+    margin-left: 10px;
+  }
+  .colorful-card {
+    width: 95vw;
+    height: 15vh;
+  }
+  .colorful-card h2 {
+    margin-top: 30px;
+  }
 }
