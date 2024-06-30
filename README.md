@@ -29,7 +29,7 @@
 >
 ## Deployment
 >
-> **Live Website** https://skilled-portfolio-project.vercel.app/
+> Coming soon.
 
 
 
