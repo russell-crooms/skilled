@@ -57,9 +57,15 @@
     .hero-container {
         width: 48vw;
     }
+}
+
+@media (max-width: 1440px) {
+    .hero-container {
+        width: 83vw;
+    }
     .hero-container-right {
-        right: 5%;
-        top: -15%;
+        top: -18%;
+        right: -25%;
     }
 }
 

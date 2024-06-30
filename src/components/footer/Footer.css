@@ -36,6 +36,12 @@
     }
 }
 
+@media (max-width: 1440px) {
+    .footer-items {
+        width: 83vw;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-logo {
         margin-left: 23px;

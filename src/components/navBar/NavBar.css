@@ -29,6 +29,12 @@
     } 
 }
 
+@media (max-width: 1440px) {
+    .navbar-container {
+        width: 83vw;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-container {
         width: 660px;
