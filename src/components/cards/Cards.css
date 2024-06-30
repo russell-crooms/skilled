@@ -119,6 +119,17 @@
     margin-top: 5px;
 }
 
+
+@media (max-width: 2560px) {
+    .card-container {
+        margin-top: 180px;
+    }
+    .cards {
+        margin-bottom: 180px;
+        margin-top: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     .card-container {
         margin-top: 10px;

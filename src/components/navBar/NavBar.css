@@ -23,6 +23,12 @@
     opacity: 60%;
 }
 
+@media (max-width: 2560px) {
+    .navbar-container {
+        width: 48vw;
+    } 
+}
+
 @media (max-width: 768px) {
     .navbar-container {
         width: 660px;

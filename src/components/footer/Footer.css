@@ -30,6 +30,12 @@
     opacity: 60%;
 }
 
+@media (max-width: 2560px) {
+    .footer-items {
+        width: 47vw;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-logo {
         margin-left: 23px;

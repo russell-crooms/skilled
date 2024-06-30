@@ -53,6 +53,16 @@
     display: none;
 }
 
+@media (max-width: 2560px) {
+    .hero-container {
+        width: 48vw;
+    }
+    .hero-container-right {
+        right: 5%;
+        top: -15%;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-container {
         margin-top: 105px;
