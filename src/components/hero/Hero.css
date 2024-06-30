@@ -78,6 +78,7 @@
     }
 }
 
+
 @media (max-width: 1024px) {
     .hero-container {
         width: 84vw;
@@ -105,7 +106,7 @@
         font-size: 16px;
     }
     .hero-image-mobile {
-        display: none;
+        display: block;
     }
 }
 
@@ -113,6 +114,7 @@
     .hero-container {
         margin-top: 105px;
         margin-left: 42px;
+        width: 50vw;
     }
     .hero-header h2 {
         font-size: 40px;
@@ -132,24 +134,69 @@
         gap: 15px;
     }
     .hero-container-right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 145px;
+        margin-right: -85px;
+    } 
+    .hero-image-desktop {
         display: none;
-    }
-    .hero-image-tablet {
-        display: block;
-        position: absolute;
-        top: -9%;
-        right: -42%;
     }
     .hero-image-mobile {
         display: none;
     }
 } 
 
-@media (max-width: 375px) {
-    .hero-image-tablet {
+@media (max-width: 425px) {
+    .hero-container-tablet {
         display: none;
     }
     .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid blue;
+        margin-top: 40px;
+    }
+
+    .hero-image-desktop {
+        display: none;
+    }
+
+    .hero-container-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero-image-mobile {
+        z-index: 2;
+    }
+
+    .hero-header {
+        margin-left: -30px;
+        margin-top: 5px;
+    }
+    .hero-para {
+        margin-left: -30px;
+        width: 87vw;
+    }
+    .hero-button {
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-container-tablet {
+        display: none;
+    }
+    .hero-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         margin-top: 38px;
         width: 80vw;
     }
@@ -163,8 +210,5 @@
     .hero-button {
         margin-left: -30px;
         margin-top: -10px;
-    }
-    .hero-image-mobile {
-        z-index: 100;
     }
 }
