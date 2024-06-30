@@ -8,19 +8,28 @@
 >
 ## Technologies Used
 >
-> Frontend: 
+> * Frontend
 >
 > - React JS
 > - HTML
 > - CSS
 >
-> Project Goals: 
+> Project Goals
 >
 > - Implement a user interface that closely resembles a provided mockup design. 
 > - Gain experience building React components and structuring a React project. 
 > - Strengthen fundamental skills in HTML and CSS. 
 >
-
+## Getting Started
+>
+> 1. Clone the repository. 
+> 2. Install dependencies: `npm install`
+> 3. Start the development server: `npm start
+>
+>
+## Deployment
+>
+> Coming Soon.
 
 
 
