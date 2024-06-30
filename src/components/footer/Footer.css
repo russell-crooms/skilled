@@ -1,18 +1,22 @@
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #13183F;
     height: 120px;
     width: 100%;
+    justify-content: space-between;
 }
 
-.footer-logo {
-    margin-left: 380px;
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-button {
-    margin-right: 330px;
     color: #FFFFFF;
     padding: 20px 35px;
     font-size: 20px;
@@ -24,4 +28,18 @@
 
 .footer-button:hover {
     opacity: 60%;
+}
+
+@media (max-width: 768px) {
+    .footer-logo {
+        margin-left: 23px;
+        height: 35px;
+        width: 89px;
+    }
+    .footer-button {
+        margin-right: 23px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+    }
 }

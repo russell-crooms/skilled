@@ -1,8 +1,9 @@
 .hero-container {
     display: flex;
     align-items: center;
-    margin-left: 350px; 
-    width: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 61vw;
     margin-top: 225px;
 }
 
