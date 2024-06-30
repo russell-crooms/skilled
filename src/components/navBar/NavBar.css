@@ -59,4 +59,21 @@
     }
 }
 
+@media (max-width: 375px) {
+    .logo {
+        width: 25vw;
+    }
+    .nav-button {
+        width: 145px;
+        font-size: 13px;
+    }
+    .navbar-container {
+        width: 97vw;
+        margin-right: -15px;
+        margin-top: 20px;
+    }
+}
+
+
+
 
