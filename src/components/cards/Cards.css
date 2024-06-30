@@ -243,6 +243,12 @@
   }
 }
 
+@media (max-width: 425px) {
+  .card-container {
+    margin-top: 500px;
+  }
+}
+
 @media (max-width: 375px) {
 
 }

@@ -152,11 +152,7 @@
         display: none;
     }
     .hero-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-top: 40px;
-        border: 1px solid blue;
     }
 
     .hero-image-desktop {
@@ -164,27 +160,37 @@
     }
 
     .hero-container-right {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-top: 580px;
+        margin-right: 100px;
     }
 
     .hero-image-mobile {
         display: flex;
-        border: 1px solid green;
     }
 
     .hero-header {
-        margin-left: -30px;
         margin-top: 5px;
+        margin-left: -25px;
+        width: 98vw;
     }
+
+    .hero-header h2 {
+        font-size: 45px;
+    }
+
     .hero-para {
-        margin-left: -30px;
-        width: 87vw;
+        margin-left: -25px;
+        width: 75vw;
     }
+
+    .hero-para p {
+        font-size: 16px;
+    }
+
     .hero-button {
         margin-left: -30px;
         margin-top: -10px;
+        font-size: 16px;
     }
 }
 
@@ -193,22 +199,24 @@
         display: none;
     }
     .hero-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 38px;
+        margin-top: 40px;
         width: 80vw;
     }
+    .hero-container-right {
+        margin-top: 580px;
+        margin-right: 46px;
+    }
     .hero-header {
-        margin-left: -30px;
+        margin-left: -22px;
+        margin-top: 5px;
     }
     .hero-para {
-        margin-left: -30px;
+        margin-left: -22px;
         width: 87vw;
     }
     .hero-button {
-        margin-left: -30px;
+        margin-left: -22px;
         margin-top: -10px;
+        font-size: 16px;
     }
 }
