@@ -2,9 +2,9 @@
 >
 ## Overview 
 >
-> - Skilled is a simple website built with React JS, HTML, and CSS. This project focuses on replicating a mockup design as closely as possible, providing practice in building and developing React applications while adhering to a deisgn template. 
+> Skilled is a simple website built with React JS, HTML, and CSS. This project focuses on replicating a mockup design as closely as possible, providing practice in building and developing React applications while adhering to a deisgn template. 
 >
-## Technolties Used
+## Technologies Used
 >
 > ** Frontend: 
 >
