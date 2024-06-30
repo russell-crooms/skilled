@@ -3,7 +3,7 @@ import icon_business from "../../assets/icon-business.svg";
 import icon_crypto from "../../assets/icon-crypto.svg";
 import icon_design from "../../assets/icon-design.svg";
 import icon_photography from "../../assets/icon-photography.svg";
-import './Cards.css';
+import "./Cards.css";
 
 const Cards = () => {
   return (
@@ -24,23 +24,26 @@ const Cards = () => {
         <div className="white-card design">
           <img src={icon_design} alt="" />
           <div className="design-container">
-          <h2>Design</h2>
-          <p>
-            Create beautiful, usable interfaces to help shape the future of how
-            the web looks.
-          </p>
-          <p className="cards-get-started design-get-started">Get Started</p>
+            <h2>Design</h2>
+            <p>
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <p className="cards-get-started design-get-started">Get Started</p>
           </div>
         </div>
         <div className="white-card photography">
           <img src={icon_photography} alt="" />
           <div className="photography-container">
-          <h2>Photography</h2>
-          <p>
-            Explore critical fundamentals like lighting, composition, and focus<br></br>
-            to capture exceptional photos.
-          </p>
-          <p className="cards-get-started photography-get-started">Get Started</p>
+            <h2>Photography</h2>
+            <p>
+              Explore critical fundamentals like lighting, composition, and
+              focus<br></br>
+              to capture exceptional photos.
+            </p>
+            <p className="cards-get-started photography-get-started">
+              Get Started
+            </p>
           </div>
         </div>
         <div className="white-card tablet-2">
