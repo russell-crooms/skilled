@@ -8,7 +8,7 @@
 >
 ## Technologies Used
 >
-> Frontend:
+> Frontend
 >
 > - React JS
 > - HTML
