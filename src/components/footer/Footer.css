@@ -32,13 +32,25 @@
 
 @media (max-width: 2560px) {
     .footer-items {
-        width: 47vw;
+        width: 62vw;
     }
 }
 
 @media (max-width: 1440px) {
     .footer-items {
         width: 83vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-items {
+        width: 80vw;
+    }
+    .footer-button {
+        font-size: 16px;
+    }
+    .footer-logo {
+        width: 115px;
     }
 }
 

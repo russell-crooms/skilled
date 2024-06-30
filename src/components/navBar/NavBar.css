@@ -25,7 +25,7 @@
 
 @media (max-width: 2560px) {
     .navbar-container {
-        width: 48vw;
+        width: 60vw;
     } 
 }
 
@@ -35,18 +35,28 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .navbar-container {
+        width: 83vw;
+    }
+    .nav-button {
+        font-size: 15px;
+    }
+    .logo {
+        width: 115px;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-container {
-        width: 660px;
-        margin-left: 40px;
+        width: 85vw;
     }
     .nav-button {
         width: 156px;
         height: 56px;
         text-align: center;
-        font-size: 14px;
+        font-size: 15px;
     }
-
 }
 
 
