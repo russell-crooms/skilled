@@ -246,10 +246,13 @@
 @media (max-width: 425px) {
   .card-container {
     margin-top: 290px;
+    margin-bottom: 80px;
   }
   .cards {
     grid-template-columns: 280px;
-    margin-left: -80px;
+    grid-template-rows: auto;
+    margin-left: -70px;
+    gap: 50px;
   }
   .colorful-card {
     width: 90vw;
@@ -257,6 +260,19 @@
   }
   .colorful-card h2 {
     margin-top: 30px;
+  }
+  .white-card {
+    width: 90vw;
+  }
+  .white-card p {
+    font-size: 16px;
+    width: 286px;
+  }
+  .white-card h2 {
+    font-size: 23px;
+  }
+  .cards-get-started {
+    font-size: 22px;
   }
 }
 
