@@ -282,13 +282,22 @@
   }
   .cards {
     grid-template-columns: 280px;
-    margin-left: 10px;
+    margin-left: auto;
   }
   .colorful-card {
-    width: 95vw;
+    width: 82vw;
     height: 15vh;
+    margin-right: 5px;
   }
   .colorful-card h2 {
     margin-top: 30px;
+  }
+  .white-card {
+    width: 88vw;
+    margin-left: -13px;
+  }
+  .white-card p {
+    font-size: 16px;
+    width: 75vw;
   }
 }

@@ -214,15 +214,18 @@
         margin-right: 46px;
     }
     .hero-header {
-        margin-left: -22px;
+        margin-left: -26px;
         margin-top: 5px;
     }
+    .hero-header h2 {
+        font-size: 40px;
+    }
     .hero-para {
-        margin-left: -22px;
+        margin-left: -26px;
         width: 87vw;
     }
     .hero-button {
-        margin-left: -22px;
+        margin-left: -26px;
         margin-top: -10px;
         font-size: 16px;
     }

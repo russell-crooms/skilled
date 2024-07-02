@@ -68,3 +68,25 @@
         width: 84vw;
     }
 }
+
+
+@media (max-width: 375px) {
+    .footer {
+        width: 100vw;
+    }
+    .footer-items {
+        width: 80vw;
+        align-items: center;
+    }
+    .footer-logo img {
+        width: 25vw;
+        margin-left: -25px;
+        margin-top: 5px;
+    }
+    .footer-button p {
+        font-size: 13px;
+    }
+    .footer-button {
+        margin-right: -10px;
+    }
+}
