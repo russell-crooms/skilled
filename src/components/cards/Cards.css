@@ -149,7 +149,8 @@
   .card-container {
     width: auto;
     height: auto;
-    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
   }
   .cards {
     grid-template-rows: 310px 310px 310px;
