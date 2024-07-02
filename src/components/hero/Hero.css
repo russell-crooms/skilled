@@ -59,13 +59,17 @@
 
 @media (max-width: 2560px) {
     .hero-container {
-        width: 60vw;
+        width: 47vw;
     }
     .hero-image-mobile {
         display: none;
     }
     .hero-container-tablet {
         display: none;
+    }
+    .hero-container-right {
+        right: 6%;
+        top: -10%;
     }
 }
 

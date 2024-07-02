@@ -121,10 +121,10 @@
 
 @media (max-width: 2560px) {
   .card-container {
-    margin-top: 180px;
+    margin-top: 200px;
+    height: 60vh;
   }
   .cards {
-    margin-bottom: 180px;
     margin-top: 80px;
   }
 }
