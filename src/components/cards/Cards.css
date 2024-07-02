@@ -129,6 +129,13 @@
   }
 }
 
+@media (max-width: 1630px) {
+  .card-container {
+    margin-top: 440px;
+    margin-bottom: 200px;
+  }
+}
+
 @media (max-width: 1440px) {
   .card-container {
     margin-bottom: 250px;

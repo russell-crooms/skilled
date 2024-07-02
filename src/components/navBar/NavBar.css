@@ -29,6 +29,12 @@
     } 
 }
 
+@media (max-width: 1630px) {
+    .navbar-container {
+        width: 72vw;
+    }
+}
+
 @media (max-width: 1440px) {
     .navbar-container {
         width: 83vw;
@@ -37,7 +43,7 @@
 
 @media (max-width: 1024px) {
     .navbar-container {
-        width: 83vw;
+        width: 78vw;
     }
     .nav-button {
         font-size: 15px;
