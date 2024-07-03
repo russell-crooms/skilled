@@ -1,24 +1,23 @@
-.card-container {
-  width: 100%;
-  height: 100vh;
+.cards-section {
+  width: 54%;
+  margin: 25px auto 100px auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 80px;
-  margin-top: 220px;
 }
 
-.cards {
-  display: grid;
-  grid-template-rows: 350px 350px;
-  grid-template-columns: 322px 322px 322px;
-  grid-gap: 80px;
-  margin-bottom: 200px;
+.all-cards {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .colorful-card {
   border-radius: 15px;
-  width: 375px;
+  width: 400px;
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
   color: #ffffff;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
@@ -34,91 +33,48 @@
   font-weight: 800;
 }
 
-.white-card {
-  border-radius: 15px;
+.white-cards {
+  width: 400px;
+  height: 320px;
   background: #ffffff;
+  border-radius: 15px;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
-  width: 375px;
+  padding-left: 32px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 80px;
-  gap: 40px;
+  gap: 5px;
 }
 
-.white-card img {
+.white-cards img {
   width: 56px;
   z-index: 1;
-  position: relative;
+  margin-top: -22px;
 }
 
-.white-card h2 {
+.white-cards h2 {
   font-weight: 800;
+  font-size: 24px;
 }
 
-.white-card p {
+.white-cards p {
   color: #83869a;
-  font-size: 18px;
+  font-size: 20px;
+  width: 97%;
 }
 
-.white-card .cards-get-started {
+.white-cards span {
   color: #f74780;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   cursor: pointer;
-  width: 107px;
+  margin-top: 25px;
 }
 
-.white-card .cards-get-started:hover {
+.white-card span:hover {
   opacity: 60%;
 }
 
-.design img {
-  margin-top: 2px;
-}
-
-.design-container {
-  width: 350px;
-  height: 250px;
-}
-
-.design p {
-  margin-top: 15px;
-  padding-top: 18px;
-  width: 286px;
-  height: 84px;
-}
-
-.design-get-started {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: flex-end; /*fix prior to submission - for some reason there is extra spacing around the get started link */
-}
-
-.photography-container {
-  width: 350px;
-  height: 270px;
-}
-
-.photography-container h2 {
-  padding-bottom: 7px;
-}
-
-.photography-container p {
-  margin-top: 17px;
-  padding-top: 18px;
-  width: 286px;
-  height: 75px;
-}
-
-.photography-get-started {
-  display: flex;
-  align-items: flex-end;
-  margin-top: 5px;
-}
-
+/* Commented out remaining styles for now
 @media (max-width: 2560px) {
   .card-container {
     margin-top: 200px;

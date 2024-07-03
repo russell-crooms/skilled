@@ -11,14 +11,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 61vw;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer-button {
     color: #FFFFFF;
-    padding: 20px 35px;
+    padding: 10px 35px;
     font-size: 20px;
     font-weight: 450;
     background: linear-gradient(360deg, rgb(72, 81, 255), rgba(240, 42, 166));
@@ -29,7 +29,7 @@
 .footer-button:hover {
     opacity: 60%;
 }
-
+/*
 @media (max-width: 2560px) {
     .footer-items {
         width: 47vw;

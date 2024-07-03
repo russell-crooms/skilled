@@ -24,21 +24,18 @@ const Cards = () => {
           <span>Get Started</span>
         </div>
 
-        <div>
+        <div className="white-cards">
           <img src={icon_design} alt="" />
-          <div className="design-container">
             <h2>Design</h2>
             <p>
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
             <span>Get Started</span>
-          </div>
         </div>
 
-        <div>
+        <div className="white-cards">
           <img src={icon_photography} alt="" />
-          <div className="photography-container">
             <h2>Photography</h2>
             <p>
               Explore critical fundamentals like lighting, composition, and
@@ -46,10 +43,9 @@ const Cards = () => {
               to capture exceptional photos.
             </p>
             <span>Get Started</span>
-          </div>
         </div>
 
-        <div>
+        <div className="white-cards">
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
           <p className="crypto-tablet">
@@ -60,7 +56,7 @@ const Cards = () => {
         </div>
 
 
-        <div>
+        <div className="white-cards">
           <img src={icon_business} alt="" />
           <h2>Business</h2>
           <p>
