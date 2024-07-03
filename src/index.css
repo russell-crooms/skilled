@@ -1,6 +1,4 @@
 * {
-  margin: 0; 
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -10,6 +8,6 @@ body {
   background: linear-gradient(180deg, white 30%, #e4e6f5 100%);
   overflow-x: hidden;
   width: 100%;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin: 0;
+  padding: 0;
 }
