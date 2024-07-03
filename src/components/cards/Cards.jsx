@@ -48,7 +48,7 @@ const Cards = () => {
         <div className="white-cards">
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
-          <p className="crypto-tablet">
+          <p>
             All you need to know to get started investing in crypto. Go from
             beginner to advanced with this 54 hour course.
           </p>
