@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 62%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 38.7px;
@@ -15,7 +15,7 @@
     padding: 20px 35px;
     font-size: 18px;
     font-weight: 700;
-    z-index: 100;
+    z-index: 5;
     cursor: pointer;
 }
 
@@ -23,18 +23,7 @@
     opacity: 60%;
 }
 
-@media (max-width: 2560px) {
-    .navbar-container {
-        width: 47vw;
-    } 
-}
-
-@media (max-width: 1630px) {
-    .navbar-container {
-        width: 72vw;
-    }
-}
-
+/* Commented all of the below code for now. I don't think we need it. 
 @media (max-width: 1440px) {
     .navbar-container {
         width: 83vw;
@@ -42,7 +31,7 @@
 }
 
 @media (max-width: 1024px) {
-    .navbar-container {
+    /*.navbar-container {
         width: 78vw;
     }
     .nav-button {
