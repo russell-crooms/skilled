@@ -7,21 +7,24 @@ import "./Cards.css";
 
 const Cards = () => {
   return (
-    <div className="card-container">
-      <div className="cards">
+    <div className="cards-section">
+      <div className="all-cards">
         <div className="colorful-card">
           <h2>Check out our most popular courses!</h2>
         </div>
-        <div className="white-card tablet-2">
+                    {/*-- White Cards */}
+
+        <div className="white-cards">
           <img src={icon_animation} className="icon-1" alt="" />
           <h2>Animation</h2>
           <p>
             Learn the latest animation techniques to create stunning motion
             design and captivate your audience.
           </p>
-          <p className="cards-get-started row-one">Get Started</p>
+          <span>Get Started</span>
         </div>
-        <div className="white-card design">
+
+        <div>
           <img src={icon_design} alt="" />
           <div className="design-container">
             <h2>Design</h2>
@@ -29,10 +32,11 @@ const Cards = () => {
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
-            <p className="cards-get-started design-get-started">Get Started</p>
+            <span>Get Started</span>
           </div>
         </div>
-        <div className="white-card photography">
+
+        <div>
           <img src={icon_photography} alt="" />
           <div className="photography-container">
             <h2>Photography</h2>
@@ -41,29 +45,31 @@ const Cards = () => {
               focus<br></br>
               to capture exceptional photos.
             </p>
-            <p className="cards-get-started photography-get-started">
-              Get Started
-            </p>
+            <span>Get Started</span>
           </div>
         </div>
-        <div className="white-card tablet-2">
+
+        <div>
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
           <p className="crypto-tablet">
             All you need to know to get started investing in crypto. Go from
             beginner to advanced with this 54 hour course.
           </p>
-          <p className="cards-get-started crypto-get-started">Get Started</p>
+          <span>Get Started</span>
         </div>
-        <div className="white-card tablet-2">
+
+
+        <div>
           <img src={icon_business} alt="" />
           <h2>Business</h2>
           <p>
             A step-by-step playbook to help you start, scale and sustain your
             business without outside investment.
           </p>
-          <p className="cards-get-started">Get Started</p>
+          <span>Get Started</span>
         </div>
+
       </div>
     </div>
   );
