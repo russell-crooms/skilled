@@ -9,6 +9,10 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+@media (min-width: 2156px) {
+  .cards-section {
+  }
+}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -37,6 +41,11 @@
   flex-direction: column;
   gap: 5px;
 }
+@media (min-width: 2156px) {
+  .cards {
+
+  }
+}
 
 .cards img {
   width: 56px;
@@ -48,11 +57,21 @@
   font-weight: 800;
   font-size: 24px;
 }
+@media (min-width: 2156px) {
+  .cards h2 {
+ 
+  }
+}
 
 .cards p {
   color: #83869a;
   font-size: 20px;
   width: 97%;
+}
+@media (min-width: 2156px) {
+  .cards p {
+
+}
 }
 
 .cards span {
@@ -61,6 +80,11 @@
   font-weight: 700;
   cursor: pointer;
   margin-top: 25px;
+}
+@media (min-width: 2156px) {
+  .cards span {
+
+  }
 }
 
 .cards span:hover {
