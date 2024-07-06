@@ -1,13 +1,13 @@
 
 .cards-section {
-  width: 54%;
+  width: 50%;
   margin: 30px auto 100px auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 @media (min-width: 2156px) {
   .cards-section {
