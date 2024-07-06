@@ -7,6 +7,12 @@
     margin-right: auto;
     margin-top: 38.7px;
 }
+@media (max-width: 1440px) {
+    .navbar-container {
+        width: 80%;
+    }
+}
+
 
 .nav-button {
     border-radius: 50px;

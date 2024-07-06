@@ -6,6 +6,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -225px;
+} 
+@media (max-width: 1440px) {
+    .hero-section {
+        margin-top: -190px;
+        width: 80%;
+    }
 }
 
 .hero-section-left {
@@ -20,12 +26,24 @@
     line-height: 70px;
     margin-bottom: -10px;
 }
+@media (max-width: 1440px) {
+    .hero-header-text {
+    width: 96%;
+    font-size: 47px;
+    }
+}
 
 .hero-paragraph {
     font-size: 25px;
     line-height: 40px;
     color: #83869A;
     width: 80%;
+}
+@media (max-width: 1440px) {
+    .hero-paragraph {
+        width: 93%;
+        font-size: 23px;
+    }
 }
 
 .hero-button button {
