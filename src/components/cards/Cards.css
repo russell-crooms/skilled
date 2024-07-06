@@ -9,8 +9,9 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-@media (min-width: 2156px) {
+@media (max-width: 1440px) {
   .cards-section {
+    width: 80%;
   }
 }
 
@@ -41,9 +42,9 @@
   flex-direction: column;
   gap: 5px;
 }
-@media (min-width: 2156px) {
+@media (max-width: 1440px) {
   .cards {
-
+    width: 360px;
   }
 }
 
@@ -68,9 +69,10 @@
   font-size: 20px;
   width: 97%;
 }
-@media (min-width: 2156px) {
+@media (max-width: 1440px) {
   .cards p {
-
+    width: 99%;
+    font-size: 18px;
 }
 }
 
