@@ -1,39 +1,32 @@
+
 .cards-section {
   width: 54%;
-  margin: 25px auto 100px auto;
+  margin: 30px auto 100px auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.all-cards {
-  border-radius: 15px;
-  display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
 }
 
-.colorful-card {
-  border-radius: 15px;
-  width: 400px;
+#colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
-  color: #ffffff;
-  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
 }
 
-.colorful-card h2 {
-  display: flex;
+  #colorful-card .colorful-header {
   align-items: center;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-top: 80px;
+  justify-content: center;
+  width: 82%;
+  margin-top: 72px;
+  margin-left: 38px; 
+  margin-right: 26px;
   font-size: 32px;
   font-weight: 800;
 }
 
-.white-cards {
+.cards {
   width: 400px;
   height: 320px;
   background: #ffffff;
@@ -45,24 +38,24 @@
   gap: 5px;
 }
 
-.white-cards img {
+.cards img {
   width: 56px;
   z-index: 1;
   margin-top: -22px;
 }
 
-.white-cards h2 {
+.cards h2 {
   font-weight: 800;
   font-size: 24px;
 }
 
-.white-cards p {
+.cards p {
   color: #83869a;
   font-size: 20px;
   width: 97%;
 }
 
-.white-cards span {
+.cards span {
   color: #f74780;
   font-size: 22px;
   font-weight: 700;
@@ -70,198 +63,6 @@
   margin-top: 25px;
 }
 
-.white-card span:hover {
+.cards span:hover {
   opacity: 60%;
-}
-
-/* Commented out remaining styles for now
-@media (max-width: 2560px) {
-  .card-container {
-    margin-top: 200px;
-    height: 60vh;
-  }
-  .cards {
-    margin-top: 80px;
-  }
-}
-
-@media (max-width: 1630px) {
-  .card-container {
-    margin-top: 440px;
-    margin-bottom: 200px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .card-container {
-    margin-bottom: 250px;
-  }
-  .cards {
-    margin-top: 300px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .card-container {
-    width: auto;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 5px;
-  }
-  .cards {
-    grid-template-rows: 310px 310px 310px;
-    grid-template-columns: 320px 322px;
-    margin-top: 125px;
-    margin-bottom: 100px;
-  }
-  .white-card img {
-    top: 8%;
-  }
-  .colorful-card {
-    box-shadow: none;
-  }
-  .white-card {
-    box-shadow: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-container {
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    width: auto;
-    height: auto;
-  }
-
-  .cards {
-    grid-template-rows: 280px 280px 280px;
-    grid-template-columns: 280px 280px;
-    grid-row-gap: 25px;
-    grid-column-gap: 50px;
-    margin-bottom: 0px;
-  }
-
-  .colorful-card {
-    width: 310px;
-    height: 259px;
-    box-shadow: none;
-  }
-
-  .colorful-card h2 {
-    font-size: 24px;
-    width: 286px;
-    height: 64px;
-  }
-
-  .white-card {
-    width: 310px;
-    height: 259px;
-    box-shadow: none;
-  }
-  .white-card h2 {
-    font-size: 20px;
-  }
-  .white-card p {
-    line-height: 26px;
-    width: 268px;
-    height: 78px;
-    font-weight: 400;
-    padding-top: 10px;
-    margin-top: 0px;
-    font-size: 15px;
-  }
-  .white-card img {
-    bottom: -10%;
-  }
-  .photography img {
-    top: 13%;
-    margin-bottom: 5px;
-  }
-  .design img {
-    margin-top: 14px;
-  }
-  .design-get-started {
-    align-items: end;
-    padding-top: 0px;
-  }
-  .white-card .design {
-    padding-top: 10px;
-  }
-  .tablet-2 {
-    gap: 25px;
-  }
-  .tablet-2 p {
-    font-size: 15px;
-    line-height: 26px;
-    width: 268px;
-    height: 78px;
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-
-  .crypto-get-started {
-    height: 28px;
-    width: 108px;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 425px) {
-  .card-container {
-    margin-top: 290px;
-    margin-bottom: 80px;
-  }
-  .cards {
-    grid-template-columns: 280px;
-    grid-template-rows: auto;
-    margin-left: -70px;
-    gap: 50px;
-  }
-  .colorful-card {
-    width: 90vw;
-    height: 15vh;
-  }
-  .colorful-card h2 {
-    margin-top: 30px;
-  }
-  .white-card {
-    width: 90vw;
-  }
-  .white-card p {
-    font-size: 16px;
-    width: 286px;
-  }
-  .white-card h2 {
-    font-size: 23px;
-  }
-  .cards-get-started {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 375px) {
-  .card-container {
-    margin-top: 290px;
-  }
-  .cards {
-    grid-template-columns: 280px;
-    margin-left: auto;
-  }
-  .colorful-card {
-    width: 82vw;
-    height: 15vh;
-    margin-right: 5px;
-  }
-  .colorful-card h2 {
-    margin-top: 30px;
-  }
-  .white-card {
-    width: 88vw;
-    margin-left: -13px;
-  }
-  .white-card p {
-    font-size: 16px;
-    width: 75vw;
-  }
 }

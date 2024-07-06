@@ -8,13 +8,12 @@ import "./Cards.css";
 const Cards = () => {
   return (
     <div className="cards-section">
-      <div className="all-cards">
-        <div className="colorful-card">
-          <h2>Check out our most popular courses!</h2>
+        <div className="cards" id="colorful-card">
+          <h2 className="colorful-header">Check out our most popular courses!</h2>
         </div>
                     {/*-- White Cards */}
 
-        <div className="white-cards">
+        <div className="cards">
           <img src={icon_animation} className="icon-1" alt="" />
           <h2>Animation</h2>
           <p>
@@ -24,7 +23,7 @@ const Cards = () => {
           <span>Get Started</span>
         </div>
 
-        <div className="white-cards">
+        <div className="cards">
           <img src={icon_design} alt="" />
             <h2>Design</h2>
             <p>
@@ -34,7 +33,7 @@ const Cards = () => {
             <span>Get Started</span>
         </div>
 
-        <div className="white-cards">
+        <div className="cards">
           <img src={icon_photography} alt="" />
             <h2>Photography</h2>
             <p>
@@ -45,7 +44,7 @@ const Cards = () => {
             <span>Get Started</span>
         </div>
 
-        <div className="white-cards">
+        <div className="cards">
           <img src={icon_crypto} alt="" />
           <h2>Crypto</h2>
           <p>
@@ -56,7 +55,7 @@ const Cards = () => {
         </div>
 
 
-        <div className="white-cards">
+        <div className="cards">
           <img src={icon_business} alt="" />
           <h2>Business</h2>
           <p>
@@ -66,7 +65,6 @@ const Cards = () => {
           <span>Get Started</span>
         </div>
 
-      </div>
     </div>
   );
 };
