@@ -56,9 +56,10 @@
 }
 @media (max-width: 768px) {
     .hero-header-text {
-        font-size: 24px;
-        line-height: 40px;
-        width: 100%;
+        font-size: 26px;
+        line-height: 50px;
+        width: 120%;
+        font-weight: 1000;
     }
 }
 
@@ -83,8 +84,8 @@
 }
 @media (max-width: 768px) {
     .hero-paragraph {
-        width: 110%;
-        font-size: 14px;
+        width: 126%;
+        font-size: 15px;
         line-height: 25px;
     }
 }
@@ -137,196 +138,3 @@
     display: none;
 }
 
-/*
-@media (max-width: 2560px) {
-    .hero-container {
-        width: 47vw;
-    }
-    .hero-image-mobile {
-        display: none;
-    }
-    .hero-container-tablet {
-        
-        display: none;
-    }
-    .hero-container-right {
-        right: 6%;
-        top: -10%;
-    }
-}
-
-@media (max-width: 1630px) {
-    .hero-container {
-        margin-top: 160px;
-        width: 72vw;
-    }
-
-    .hero-container-right {
-        margin-right: -380px;
-        margin-top: -50px;
-    }
-}
-
-@media (max-width: 1440px) {
-    .hero-container {
-        width: 83vw;
-    }
-    .hero-container-right {
-        top: -18%;
-        right: -25%;
-    }
-    .hero-container-tablet {
-        display: none;
-    }
-    .hero-image-mobile {
-        display: none;
-    }
-}
-
-
-@media (max-width: 1024px) {
-    .hero-container {
-        width: 78vw;
-        margin-top: 125px;
-    }
-    .hero-header h2 {
-        font-size: 50px;
-        font-weight: 800;
-        line-height: 50px;
-    }
-    .hero-para p {
-        font-size: 18px;
-        width: 400px;
-    }
-    .hero-image-desktop {
-        display: none;
-    }
-    .hero-container-tablet {
-        display: flex;
-        margin-top: 150px;
-        margin-right: 420px;
-    }
-    .hero-button button {
-        padding: 20px 25px;
-        font-size: 16px;
-    }
-    .hero-image-mobile {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero-container {
-        margin-top: 105px;
-        margin-left: 42px;
-        width: 50vw;
-    }
-    .hero-header h2 {
-        font-size: 40px;
-        font-weight: 800;
-        line-height: 50px;
-    }
-    .hero-para p {
-        font-size: 15px;
-        line-height: 27px;
-        width: 300px;
-    }    
-    .hero-button button {
-        width: 167px;
-        font-size: 15px;
-        text-align: center;
-    }
-    .hero-container-left {
-        gap: 15px;
-    }
-    .hero-container-right {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        margin-right: -100px;
-    } 
-    .hero-image-desktop {
-        display: none;
-    }
-    .hero-image-mobile {
-        display: none;
-    }
-} 
-
-@media (max-width: 425px) {
-    .hero-container-tablet {
-        display: none;
-    }
-    .hero-container {
-        margin-top: 40px;
-    }
-
-    .hero-image-desktop {
-        display: none;
-    }
-
-    .hero-container-right {
-        margin-top: 580px;
-        margin-right: 100px;
-    }
-
-    .hero-image-mobile {
-        display: flex;
-    }
-
-    .hero-header {
-        margin-top: 5px;
-        margin-left: -25px;
-        width: 98vw;
-    }
-
-    .hero-header h2 {
-        font-size: 45px;
-    }
-
-    .hero-para {
-        margin-left: -25px;
-        width: 75vw;
-    }
-
-    .hero-para p {
-        font-size: 16px;
-    }
-
-    .hero-button {
-        margin-left: -30px;
-        margin-top: -10px;
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 375px) {
-    .hero-container-tablet {
-        display: none;
-    }
-    .hero-container {
-        margin-top: 40px;
-        width: 80vw;
-    }
-    .hero-container-right {
-        margin-top: 580px;
-        margin-right: 46px;
-    }
-    .hero-header {
-        margin-left: -26px;
-        margin-top: 5px;
-    }
-    .hero-header h2 {
-        font-size: 40px;
-    }
-    .hero-para {
-        margin-left: -26px;
-        width: 87vw;
-    }
-    .hero-button {
-        margin-left: -26px;
-        margin-top: -10px;
-        font-size: 16px;
-    }
-}
-    */
