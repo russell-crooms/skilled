@@ -8,6 +8,13 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+@media (min-width: 375px) {
+  .cards-section {
+    width: 90%;
+    gap: 35px;
+    border: 1px solid green;
+  }
+}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -35,6 +42,11 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+@media (min-width: 375px) {
+  .cards {
+    width: 370px;
+  }
 }
 
 .cards img {
