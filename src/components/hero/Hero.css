@@ -7,32 +7,6 @@
     margin-right: auto;
     margin-top: -225px;
 } 
-@media (max-width: 1440px) {
-    .hero-section {
-        margin-top: -190px;
-        width: 80%;
-    }
-}
-@media (max-width: 1024px) {
-    .hero-section {
-        justify-content: center;
-        width: 70%;
-    }
-}
-@media (max-width: 768px) {
-    .hero-section {
-        width: 90%;
-    }
-}
-
-.hero-section-left {
-    margin-top: 100px;
-}
-@media (max-width: 1024px) {
-    .hero-section-left {
-        margin-top: 60px;
-    }
-}
 
 .hero-header-text {
     font-size: 40px;
@@ -42,52 +16,12 @@
     line-height: 70px;
     margin-bottom: -10px;
 }
-@media (max-width: 1440px) {
-    .hero-header-text {
-        width: 96%;
-        font-size: 47px;
-    }
-}
-@media (max-width: 1024px) {
-    .hero-header-text {
-        font-size: 25px;
-        line-height: 45px;
-    }
-}
-@media (max-width: 768px) {
-    .hero-header-text {
-        font-size: 26px;
-        line-height: 50px;
-        width: 120%;
-        font-weight: 1000;
-    }
-}
 
 .hero-paragraph {
     font-size: 25px;
     line-height: 40px;
     color: #83869A;
     width: 80%;
-}
-@media (max-width: 1440px) {
-    .hero-paragraph {
-        width: 80%;
-        font-size: 23px;
-    }
-}
-@media (max-width: 1024px) {
-    .hero-paragraph {
-        width: 97%;
-        font-size: 16px;
-        line-height: 28px;
-    }
-}
-@media (max-width: 768px) {
-    .hero-paragraph {
-        width: 126%;
-        font-size: 15px;
-        line-height: 25px;
-    }
 }
 
 .hero-button button {
@@ -102,11 +36,6 @@
     font-weight: 450;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .hero-button button {
-        font-size: 16px;
-    }
-}
 
 .hero-button button:hover {
     opacity: 60%;
@@ -115,24 +44,10 @@
 .hero-image {
     margin-right: -490px;
 }
-@media (max-width: 1024px) {
-    .hero-image-desktop {
-        display: none;
-    }
-}
 
 .hero-image-tablet {
     display: none;
 }
-@media (max-width: 1024px) {
-    .hero-image-tablet {
-        display: flex;
-        align-items: center;
-        margin-right: 180px;
-        margin-top: 60px;
-    }
-}
-
 
 .hero-image-mobile {
     display: none;

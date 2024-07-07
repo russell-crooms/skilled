@@ -8,18 +8,6 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-@media (max-width: 1440px) {
-  .cards-section {
-    width: 80%;
-  }
-}
-@media (max-width: 768px) {
-  .cards-section {
-    width: 90%;
-    row-gap: 40px;
-    column-gap: 15px;
-  }
-}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -36,12 +24,6 @@
   font-size: 32px;
   font-weight: 800;
 }
-@media (max-width: 1024px) {
-  #colorful-card .colorful-header {
-    font-size: 24px;
-    margin-left: 9px;
-  }
-}
 
 .cards {
   width: 400px;
@@ -54,24 +36,6 @@
   flex-direction: column;
   gap: 5px;
 }
-@media (max-width: 1440px) {
-  .cards {
-    width: 360px;
-  }
-}
-@media (max-width: 1024px) {
-  .cards {
-    width: 339px;
-    height: 270px;
-    box-shadow: none;
-  }
-}
-@media (max-width: 768px) {
-  .cards {
-    width: 330px;
-    gap: 0px;
-  }
-}
 
 .cards img {
   width: 56px;
@@ -83,28 +47,11 @@
   font-weight: 800;
   font-size: 24px;
 }
-@media (max-width: 1024px) {
-  .cards h2 {
-    font-size: 18px;
-  }
-}
 
 .cards p {
   color: #83869a;
   font-size: 20px;
   width: 97%;
-}
-@media (max-width: 1440px) {
-  .cards p {
-    width: 96%;
-    font-size: 17px;
-  }
-}
-@media (max-width: 1024px) {
-  .cards p {
-    font-size: 15px;
-    line-height: 22px;
-  }
 }
 
 .cards span {
@@ -113,11 +60,6 @@
   font-weight: 700;
   cursor: pointer;
   margin-top: 25px;
-}
-@media (max-width: 1024px) {
-  .cards span {
-    font-size: 16px;
-  }
 }
 
 .cards span:hover {

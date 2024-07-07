@@ -7,22 +7,6 @@
     margin-right: auto;
     margin-top: 38.7px;
 }
-@media (max-width: 1440px) {
-    .navbar-container {
-        width: 80%;
-    }
-}
-@media (max-width: 1024px) {
-    .navbar-container {
-        width: 70%;
-    }
-}
-@media (max-width: 768px) {
-    .navbar-container {
-        width: 90%;
-    }
-}
-
 
 .nav-button {
     border-radius: 50px;
@@ -38,66 +22,4 @@
 .nav-button:hover {
     opacity: 60%;
 }
-
-/* Commented all of the below code for now. I don't think we need it. 
-@media (max-width: 1440px) {
-    .navbar-container {
-        width: 83vw;
-    }
-}
-
-@media (max-width: 1024px) {
-    /*.navbar-container {
-        width: 78vw;
-    }
-    .nav-button {
-        font-size: 15px;
-    }
-    .logo {
-        width: 115px;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar-container {
-        width: 85vw;
-    }
-    .nav-button {
-        width: 156px;
-        height: 56px;
-        text-align: center;
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 425px) {
-    .logo {
-        width: 25vw;
-    }
-    .nav-button {
-        width: 145px;
-        font-size: 13px;
-    }
-    .navbar-container {
-        width: 95vw;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 375px) {
-    .logo {
-        width: 25vw;
-    }
-    .nav-button {
-        width: 145px;
-        font-size: 13px;
-    }
-    .navbar-container {
-        width: 88vw;
-        margin-top: 20px;
-    }
-} */
-
-
-
 
