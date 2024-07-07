@@ -22,7 +22,6 @@ const Hero = () => {
           <button>Get Started</button>
         </div>
       </div>
-      <div className="hero-image">
         <div className="hero-image-desktop">
           <img src={hero_image_desktop} alt="" />
         </div>
@@ -32,7 +31,6 @@ const Hero = () => {
         <div className="hero-image-mobile">
           <img src={hero_image_mobile} alt="" />
         </div>
-      </div>
     </div>
   );
 };
