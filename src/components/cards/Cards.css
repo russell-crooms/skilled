@@ -1,4 +1,3 @@
-
 .cards-section {
   width: 50%;
   margin: 30px auto 100px auto;
@@ -17,18 +16,24 @@
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-  #colorful-card .colorful-header {
+#colorful-card .colorful-header {
   align-items: center;
   justify-content: center;
   width: 82%;
   margin-top: 72px;
-  margin-left: 38px; 
+  margin-left: 38px;
   margin-right: 26px;
   font-size: 32px;
   font-weight: 800;
+}
+@media (max-width: 1024px) {
+  #colorful-card .colorful-header {
+    font-size: 24px;
+    margin-left: 9px;
+  }
 }
 
 .cards {
@@ -47,6 +52,12 @@
     width: 360px;
   }
 }
+@media (max-width: 1024px) {
+  .cards {
+    width: 339px;
+    height: 270px;
+  }
+}
 
 .cards img {
   width: 56px;
@@ -58,9 +69,9 @@
   font-weight: 800;
   font-size: 24px;
 }
-@media (min-width: 2156px) {
+@media (max-width: 1024px) {
   .cards h2 {
- 
+    font-size: 18px;
   }
 }
 
@@ -73,7 +84,13 @@
   .cards p {
     width: 96%;
     font-size: 17px;
+  }
 }
+@media (max-width: 1024px) {
+  .cards p {
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 .cards span {
@@ -83,9 +100,9 @@
   cursor: pointer;
   margin-top: 25px;
 }
-@media (min-width: 2156px) {
+@media (max-width: 1024px) {
   .cards span {
-
+    font-size: 16px;
   }
 }
 
