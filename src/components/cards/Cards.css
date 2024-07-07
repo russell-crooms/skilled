@@ -13,6 +13,13 @@
     width: 80%;
   }
 }
+@media (max-width: 768px) {
+  .cards-section {
+    width: 90%;
+    row-gap: 40px;
+    column-gap: 15px;
+  }
+}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -56,6 +63,13 @@
   .cards {
     width: 339px;
     height: 270px;
+    box-shadow: none;
+  }
+}
+@media (max-width: 768px) {
+  .cards {
+    width: 330px;
+    gap: 0px;
   }
 }
 

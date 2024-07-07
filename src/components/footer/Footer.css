@@ -20,6 +20,11 @@
         width: 70%;
     }
 }
+@media (max-width: 768px) {
+    .footer-items {
+        width: 90%;
+    }
+}
 
 .footer-button {
     color: #FFFFFF;
