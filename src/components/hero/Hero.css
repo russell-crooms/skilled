@@ -7,6 +7,11 @@
     margin-right: auto;
     margin-top: -225px;
 } 
+@media (min-width: 375px) {
+    .hero-section {
+        margin-top: 300px;
+    }
+}
 
 .hero-header-text {
     font-size: 40px;
@@ -44,6 +49,11 @@
 .hero-image {
     margin-right: -490px;
 }
+@media (min-width: 375px) {
+    .hero-image {
+        display: none;
+    }
+}
 
 .hero-image-tablet {
     display: none;
@@ -52,4 +62,5 @@
 .hero-image-mobile {
     display: none;
 }
+
 

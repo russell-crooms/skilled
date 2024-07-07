@@ -7,6 +7,14 @@
     margin-right: auto;
     margin-top: 38.7px;
 }
+@media (min-width: 375px) {
+    .navbar-container {
+        width: 90%;
+    }
+    .logo {
+        width: 100px;
+    }
+}
 
 .nav-button {
     border-radius: 50px;
@@ -17,6 +25,11 @@
     font-weight: 700;
     z-index: 5;
     cursor: pointer;
+}
+@media (min-width: 375px) {
+    .nav-button {
+        font-size: 16px;
+    }
 }
 
 .nav-button:hover {
