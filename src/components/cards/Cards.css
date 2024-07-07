@@ -16,6 +16,12 @@
     margin-top: 5px;
   }
 }
+@media (min-width: 768px) {
+  .cards-section {
+    row-gap: 50px;
+    column-gap: 8px;
+  }
+}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -24,6 +30,11 @@
 @media (min-width: 375px) {
   #colorful-card {
     height: 120px;
+  }
+}
+@media (min-width: 768px) {
+  #colorful-card {
+    height: 240px;
   }
 }
 
@@ -42,6 +53,12 @@
     font-size: 24px;
     margin-top: 24px;
     margin-left: 2px;
+  }
+}
+@media (min-width: 768px) {
+  #colorful-card .colorful-header {
+    margin-top: 56px;
+    width: 90%;
   }
 }
 
@@ -63,6 +80,12 @@
     box-shadow: none;
   }
 }
+@media (min-width: 768px) {
+  .cards {
+    width: 335px;
+    height: 255px;
+  }
+}
 
 .cards img {
   width: 56px;
@@ -76,9 +99,15 @@
 }
 @media (min-width: 375px) {
   .cards h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .cards h2 {
+    margin-top: 20px;
+    font-size: 20px;
   }
 }
 
@@ -96,6 +125,13 @@
     line-height: 23px;
   }
 }
+@media (min-width: 768px) {
+  .cards p {
+    width: 96%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
 
 .cards span {
   color: #f74780;
@@ -108,6 +144,13 @@
   .cards span {
     font-size: 18px;
     margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .cards span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
   }
 }
 
