@@ -28,6 +28,11 @@
         width: 80%;
     }
 }
+@media (min-width: 2560px) {
+    .footer-items {
+        width: 50%;
+    }
+}
 
 .footer-button {
     color: #FFFFFF;

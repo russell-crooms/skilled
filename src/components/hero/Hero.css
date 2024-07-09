@@ -25,6 +25,11 @@
         width: 80%;
     }
 }
+@media (min-width: 2560px) {
+    .hero-section {
+        width: 50%;
+    }
+}
 
 .hero-header-text {
     font-size: 40px;

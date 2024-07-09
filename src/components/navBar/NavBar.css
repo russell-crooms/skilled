@@ -20,6 +20,11 @@
         width: 80%;
     }
 }
+@media (min-width: 2560px) {
+    .navbar-container {
+        width: 50%;
+    }
+}
 
 .nav-button {
     border-radius: 50px;

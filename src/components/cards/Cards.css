@@ -34,6 +34,11 @@
     width: 80%;
   }
 }
+@media (min-width: 2560px) {
+  .cards-section {
+    width: 50%;
+  }
+}
 
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
@@ -119,6 +124,12 @@
   .cards {
     width: 364px;
     height: 322px;
+  }
+}
+@media (min-width: 2560px) {
+  .cards {
+    width: 408px;
+    height: 325px;
   }
 }
 
