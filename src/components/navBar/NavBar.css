@@ -15,7 +15,18 @@
         width: 100px;
     }
 }
+@media (min-width:1367px) {
+    .navbar-container {
+        width: 80%;
+    }
+}
+
 @media (min-width: 1440px) {
+    .navbar-container {
+        width: 80%;
+    }
+}
+@media (min-width: 1595px) {
     .navbar-container {
         width: 80%;
     }

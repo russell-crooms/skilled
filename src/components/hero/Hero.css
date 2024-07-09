@@ -20,7 +20,18 @@
         flex-direction: row;
     }
 }
+@media (min-width:1367px) {
+    .hero-section {
+        width: 80%;
+    }
+}
+
 @media (min-width: 1440px) {
+    .hero-section {
+        width: 80%;
+    }
+}
+@media (min-width: 1595px) {
     .hero-section {
         width: 80%;
     }
@@ -86,6 +97,11 @@
         font-size: 15px;
         line-height: 26px;
         font-weight: 400;
+    }
+}
+@media (min-width: 958px) {
+    .hero-paragraph {
+        width: 85%;
     }
 }
 @media (min-width: 1024px) {

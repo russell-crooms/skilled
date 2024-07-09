@@ -23,6 +23,11 @@
         width: 100px;
     }
 }
+@media (min-width:1367px) {
+    .footer-items {
+        width: 80%;
+    }
+}
 @media (min-width: 1440px) {
     .footer-items {
         width: 80%;
