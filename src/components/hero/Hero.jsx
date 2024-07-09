@@ -22,15 +22,15 @@ const Hero = () => {
           <button>Get Started</button>
         </div>
       </div>
-        <div className="hero-image-desktop">
-          <img src={hero_image_desktop} alt="" />
-        </div>
-        <div className="hero-image-tablet">
-          <img src={hero_image_tablet} alt="" />
-        </div>
-        <div className="hero-image-mobile">
-          <img src={hero_image_mobile} alt="" />
-        </div>
+      <div className="hero-image-desktop">
+        <img src={hero_image_desktop} alt="" />
+      </div>
+      <div className="hero-image-tablet">
+        <img src={hero_image_tablet} alt="" />
+      </div>
+      <div className="hero-image-mobile">
+        <img src={hero_image_mobile} alt="" />
+      </div>
     </div>
   );
 };

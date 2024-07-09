@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
-
 
 body {
   background: linear-gradient(180deg, white 30%, #e4e6f5 100%);

@@ -29,9 +29,9 @@
     margin-top: 20px;
   }
 }
-@media (min-width:1367px) {
+@media (min-width: 1367px) {
   .cards-section {
-      width: 80%;
+    width: 80%;
   }
 }
 @media (min-width: 1440px) {
@@ -151,10 +151,10 @@
     height: 280px;
   }
 }
-@media (min-width:1367px) {
+@media (min-width: 1367px) {
   .cards {
-      width: 340px;
-      height: 280px;
+    width: 340px;
+    height: 280px;
   }
 }
 @media (min-width: 1440px) {
