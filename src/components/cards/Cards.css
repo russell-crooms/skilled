@@ -36,22 +36,18 @@
 }
 @media (min-width: 1367px) {
   .cards-section {
-    width: 80%;
   }
 }
 @media (min-width: 1440px) {
   .cards-section {
-    width: 80%;
   }
 }
 @media (min-width: 1595px) {
   .cards-section {
-    width: 80%;
   }
 }
 @media (min-width: 2560px) {
   .cards-section {
-    width: 50%;
   }
 }
 
@@ -61,32 +57,32 @@
 }
 @media (min-width: 320px) {
   #colorful-card {
-    height: 120px;
+
   }
 }
 @media (min-width: 375px) {
   #colorful-card {
-    height: 120px;
+ 
   }
 }
 @media (min-width: 768px) {
   #colorful-card {
-    height: 240px;
+
   }
 }
 @media (min-width: 958px) {
   #colorful-card {
-    height: 250px;
+
   }
 }
 @media (min-width: 1024px) {
   #colorful-card {
-    height: 280px;
+
   }
 }
 @media (min-width: 1440px) {
   #colorful-card {
-    height: 322px;
+
   }
 }
 
@@ -113,12 +109,14 @@
 
 .cards {
   background: #ffffff;
+  width: 100%;
   border-radius: 15px;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
   padding: 32px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+
 }
 
 @media (min-width: 375px) {
