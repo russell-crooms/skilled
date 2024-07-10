@@ -7,15 +7,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 16px;
 }
 @media (min-width: 320px) {
   .cards-section {
-    padding: 10px;
   }
 }
 @media (min-width: 375px) {
   .cards-section {
-    width: 90%;
     gap: 35px;
     margin-bottom: 60px;
     margin-top: 5px;
@@ -96,14 +95,10 @@
 @media (min-width: 375px) {
   #colorful-card .colorful-header {
     font-size: 24px;
-    margin-top: 24px;
-    margin-left: 2px;
   }
 }
 @media (min-width: 768px) {
   #colorful-card .colorful-header {
-    margin-top: 56px;
-    width: 90%;
   }
 }
 
@@ -116,7 +111,6 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-
 }
 
 @media (min-width: 375px) {
@@ -143,7 +137,6 @@
 }
 @media (min-width: 1080px) {
   .cards {
-    width: 300px;
   }
 }
 @media (min-width: 1060px) {
@@ -210,7 +203,6 @@
 .cards p {
   color: #83869a;
   font-size: 20px;
-  width: 90%;
 }
 @media (min-width: 320px) {
   .cards p {
@@ -219,7 +211,6 @@
 }
 @media (min-width: 375px) {
   .cards p {
-    width: 90%;
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -228,7 +219,6 @@
 }
 @media (min-width: 768px) {
   .cards p {
-    width: 96%;
     font-size: 16px;
     font-weight: 400;
   }
