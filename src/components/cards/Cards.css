@@ -115,7 +115,7 @@
   background: #ffffff;
   border-radius: 15px;
   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
-  padding-left: 32px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -123,8 +123,11 @@
 
 @media (min-width: 375px) {
   .cards {
-    width: 360px;
-    height: 235px;
+    padding: 20px;
+  }
+}
+@media (min-width: 425px) {
+  .cards {
   }
 }
 @media (min-width: 768px) {
