@@ -7,6 +7,13 @@
   margin-right: auto;
   margin-top: -225px;
 }
+@media (min-width: 320px) {
+  .hero-section {
+    margin-top: 10px;
+    width: 90%;
+    flex-direction: column;
+  }
+}
 @media (min-width: 375px) {
   .hero-section {
     margin-top: 30px;
@@ -45,10 +52,16 @@
 .hero-header-text {
   font-size: 40px;
   font-weight: 800;
-  width: 80%;
+  width: 100%;
   color: #13183f;
   line-height: 70px;
   margin-bottom: -10px;
+}
+@media (min-width: 320px) {
+  .hero-header-text {
+    font-size: 22px;
+    line-height: 50px;
+  }
 }
 @media (min-width: 375px) {
   .hero-header-text {
@@ -82,7 +95,13 @@
   font-size: 25px;
   line-height: 40px;
   color: #83869a;
-  width: 80%;
+  width: 100%;
+}
+@media (min-width: 320px) {
+  .hero-paragraph {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 @media (min-width: 375px) {
   .hero-paragraph {
@@ -128,6 +147,11 @@
   font-weight: 450;
   cursor: pointer;
 }
+@media (min-width: 320px) {
+  .hero-button button {
+    font-size: 14px;
+  }
+}
 @media (min-width: 375px) {
   .hero-button button {
     font-size: 16px;
@@ -152,7 +176,11 @@
 .hero-image {
   margin-right: -490px;
 }
-
+@media (min-width: 320px) {
+  .hero-image-desktop {
+    display: none;
+  }
+}
 @media (min-width: 375px) {
   .hero-image-desktop {
     display: none;
@@ -184,6 +212,11 @@
 
 .hero-image-mobile {
   display: none;
+}
+@media (min-width: 320px) {
+  .hero-image-mobile {
+    display: inline-block;
+  }
 }
 @media (min-width: 375px) {
   .hero-image-mobile {

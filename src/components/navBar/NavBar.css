@@ -7,6 +7,14 @@
   margin-right: auto;
   margin-top: 38.7px;
 }
+@media (min-width: 320px) {
+  .navbar-container {
+    width: 90%;
+  }
+  .logo {
+    width: 80px;
+  }
+}
 @media (min-width: 375px) {
   .navbar-container {
     width: 90%;
@@ -46,6 +54,11 @@
   font-weight: 700;
   z-index: 5;
   cursor: pointer;
+}
+@media (min-width: 320px) {
+  .nav-button {
+    font-size: 14px;
+  }
 }
 @media (min-width: 375px) {
   .nav-button {

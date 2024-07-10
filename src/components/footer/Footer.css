@@ -11,9 +11,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 320px) {
+  .footer-logo .logo {
+    width: 80px;
+  }
 }
 @media (min-width: 375px) {
   .footer-items {
@@ -47,6 +52,11 @@
   background: linear-gradient(360deg, rgb(72, 81, 255), rgba(240, 42, 166));
   border-radius: 50px;
   cursor: pointer;
+}
+@media (min-width: 320px) {
+  .footer-button {
+    font-size: 14px;
+  }
 }
 @media (min-width: 375px) {
   .footer-button {
