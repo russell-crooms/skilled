@@ -132,19 +132,14 @@
 }
 @media (min-width: 768px) {
   .cards {
-    width: 335px;
-    height: 255px;
   }
 }
 @media (min-width: 958px) {
   .cards {
-    width: 275px;
   }
 }
 @media (min-width: 1024px) {
   .cards {
-    width: 285px;
-    height: 270px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
   }
 }
@@ -155,32 +150,27 @@
 }
 @media (min-width: 1060px) {
   .cards {
-    width: 295px;
-    height: 280px;
+
   }
 }
 @media (min-width: 1367px) {
   .cards {
-    width: 340px;
-    height: 280px;
+
   }
 }
 @media (min-width: 1440px) {
   .cards {
-    width: 364px;
-    height: 322px;
+
   }
 }
 @media (min-width: 1595px) {
   .cards {
-    width: 400px;
-    height: 320px;
+
   }
 }
 @media (min-width: 2560px) {
   .cards {
-    width: 408px;
-    height: 325px;
+
   }
 }
 
