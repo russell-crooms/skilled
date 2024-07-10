@@ -112,6 +112,17 @@
   flex-direction: column;
   gap: 5px;
 }
+@media (min-width: 320px) {
+  .cards {
+    padding: 25px;
+  }
+}
+@media (min-width: 375px) {
+  .cards {
+    padding: 30px;
+  }
+}
+
 
 .cards img {
   width: 56px;
