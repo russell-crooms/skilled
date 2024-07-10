@@ -145,6 +145,7 @@
 .cards p {
   color: #83869a;
   font-size: 20px;
+  width: 90%;
 }
 @media (min-width: 320px) {
   .cards p {
