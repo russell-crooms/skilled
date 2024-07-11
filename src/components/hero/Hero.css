@@ -216,6 +216,7 @@
 @media (min-width: 320px) {
   .hero-image-mobile {
     display: inline-block;
+    margin: 16px 7.26px -40px 7px;
   }
 }
 @media (min-width: 375px) {
