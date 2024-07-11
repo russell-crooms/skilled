@@ -45,6 +45,7 @@
 #colorful-card {
   background: linear-gradient(360deg, rgb(240, 42, 166), rgba(255, 111, 72));
   color: #ffffff;
+  align-self: stretch;
 }
 @media (min-width: 768px) {
   #colorful-card {
