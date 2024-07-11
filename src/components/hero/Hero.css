@@ -32,6 +32,11 @@
     width: 80%;
   }
 }
+@media (min-width: 1406px) {
+  .hero-section {
+    width: 90%;
+  }
+}
 
 @media (min-width: 1440px) {
   .hero-section {

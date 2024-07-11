@@ -33,6 +33,11 @@
     width: 80%;
   }
 }
+@media (min-width: 1406px) {
+  .footer-items {
+    width: 90%;
+  }
+}
 @media (min-width: 1440px) {
   .footer-items {
     width: 80%;
