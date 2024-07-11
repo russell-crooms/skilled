@@ -22,8 +22,8 @@
 }
 @media (min-width: 768px) {
   .cards-section {
-    row-gap: 50px;
-    column-gap: 8;
+    row-gap: 56px;
+    column-gap: 10px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -47,10 +47,6 @@
   color: #ffffff;
   align-self: stretch;
 }
-@media (min-width: 768px) {
-  #colorful-card {
-  }
-}
 
 #colorful-card .colorful-header {
   align-items: center;
@@ -63,10 +59,6 @@
 @media (min-width: 375px) {
   #colorful-card .colorful-header {
     font-size: 24px;
-  }
-}
-@media (min-width: 768px) {
-  #colorful-card .colorful-header {
   }
 }
 
@@ -118,6 +110,11 @@
   z-index: 1;
   margin-top: -50px;
 }
+@media (min-width: 768px) {
+  .cards img {
+    margin-top: -58px;
+  }
+}
 
 .cards h2 {
   font-weight: 800;
@@ -134,8 +131,8 @@
 }
 @media (min-width: 768px) {
   .cards h2 {
-    margin-top: 20px;
     font-size: 20px;
+    line-height: 25.2px;
   }
 }
 @media (min-width: 1024px) {
@@ -163,6 +160,7 @@
   .cards p {
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
   }
 }
 @media (min-width: 1024px) {
@@ -177,7 +175,6 @@
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  margin-top: 10px;
 }
 @media (min-width: 375px) {
   .cards span {
@@ -188,8 +185,7 @@
 @media (min-width: 768px) {
   .cards span {
     font-size: 18px;
-    font-weight: 700;
-    margin-top: 15px;
+    line-height: 28px;
   }
 }
 
