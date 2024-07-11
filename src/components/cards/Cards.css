@@ -58,6 +58,7 @@
   width: 100%;
   font-size: 24px;
   font-weight: 800;
+  line-height: 32px;
 }
 @media (min-width: 375px) {
   #colorful-card .colorful-header {
