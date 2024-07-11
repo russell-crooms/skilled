@@ -38,11 +38,6 @@
     width: 80%;
   }
 }
-@media (min-width: 1595px) {
-  .hero-section {
-    width: 80%;
-  }
-}
 @media (min-width: 2560px) {
   .hero-section {
     width: 47%;
