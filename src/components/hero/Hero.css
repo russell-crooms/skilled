@@ -27,20 +27,44 @@
     flex-direction: row;
   }
 }
-@media (min-width: 1367px) {
-  .hero-section {
-    width: 80%;
-  }
-}
-@media (min-width: 1406px) {
-  .hero-section {
-    width: 90%;
-  }
-}
-
 @media (min-width: 1440px) {
   .hero-section {
     width: 80%;
+  }
+}
+@media (min-width: 1737px) {
+  .hero-section {
+    width: 78%;
+  }
+}
+@media (min-width: 1793px) {
+  .hero-section {
+    width: 70%;
+  }
+}
+@media (min-width: 1906px) {
+  .hero-section {
+    width: 67%;
+  }
+}
+@media (min-width: 2002px) {
+  .hero-section {
+    width: 64.5%;
+  }
+}
+@media (min-width: 2058px) {
+  .hero-section {
+    width: 63%;
+  }
+}
+@media (min-width: 2082px) {
+  .hero-section {
+    width: 62%;
+  }
+}
+@media (min-width: 2140px) {
+  .hero-section {
+    width: 60.8%;
   }
 }
 @media (min-width: 2560px) {
@@ -112,7 +136,7 @@
 }
 @media (min-width: 768px) {
   .hero-paragraph {
-    width: 120%;
+    width: 110%;
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
@@ -127,12 +151,64 @@
   .hero-paragraph {
     font-size: 18px;
     width: 115%;
+    line-height: 28px;
+  }
+}
+@media (min-width: 1030px) {
+  .hero-paragraph {
+    width: 112%;
+  }
+}
+@media (min-width: 1078px) {
+  .hero-paragraph {
+    width: 100%;
+  }
+}
+@media (min-width: 1134px) {
+  .hero-paragraph {
+    width: 90%;
+  }
+}
+@media (min-width: 1192px) {
+  .hero-paragraph {
+    width: 80%;
+  }
+}
+@media (min-width: 1262px) {
+  .hero-paragraph {
+    width: 74%;
+  }
+}
+@media (min-width: 1292px) {
+  .hero-paragraph {
+    width: 70%;
+  }
+}
+@media (min-width: 1354px) {
+  .hero-paragraph {
+    width: 65%;
+  }
+}
+@media (min-width: 1408px) {
+  .hero-paragraph {
+    width: 60%;
   }
 }
 @media (min-width: 1440px) {
   .hero-paragraph {
     width: 75%;
     font-size: 19px;
+  }
+}
+@media (min-width: 1504px) {
+  .hero-paragraph {
+    width: 70%;
+  }
+}
+/* this is where I left off */
+@media (min-width: 2560px) {
+  .hero-paragraph {
+    width: 70%;
   }
 }
 

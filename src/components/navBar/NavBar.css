@@ -23,11 +23,6 @@
     width: 100px;
   }
 }
-@media (min-width: 1367px) {
-  .navbar-container {
-    width: 80%;
-  }
-}
 @media (min-width: 1406px) {
   .navbar-container {
     width: 90%;
@@ -41,6 +36,41 @@
 @media (min-width: 1595px) {
   .navbar-container {
     width: 80%;
+  }
+}
+@media (min-width: 1737px) {
+  .navbar-container {
+    width: 77.5%;
+  }
+}
+@media (min-width: 1793px) {
+  .navbar-container {
+    width: 69.5%;
+  }
+}
+@media (min-width: 1906px) {
+  .navbar-container {
+    width: 67%;
+  }
+}
+@media (min-width: 2002px) {
+  .navbar-container {
+    width: 64.5%;
+  }
+}
+@media (min-width: 2058px) {
+  .navbar-container {
+    width: 63%;
+  }
+}
+@media (min-width: 2082px) {
+  .navbar-container {
+    width: 62%;
+  }
+}
+@media (min-width: 2140px) {
+  .navbar-container {
+    width: 61%;
   }
 }
 @media (min-width: 2560px) {
