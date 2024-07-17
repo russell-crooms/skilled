@@ -212,6 +212,12 @@
     width: 81%;
   }
 }
+
+@media (min-width: 1502px) {
+  .hero-paragraph p {
+    width: 50%;
+  }
+}
 /* I left off here - 07/16/2024 */
 @media (min-width: 1024px) {
   .hero-paragraph p {
