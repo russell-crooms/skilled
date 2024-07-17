@@ -73,31 +73,19 @@
   }
 }
 
-.hero-header-text {
-  font-size: 40px;
+.hero-header-text h2 {
+  font-size: 34px;
   font-weight: 800;
   width: 100%;
   color: #13183f;
-  line-height: 70px;
-  margin-bottom: -10px;
-}
-@media (min-width: 320px) {
-  .hero-header-text {
-    font-size: 22px;
-    line-height: 50px;
-  }
-}
-@media (min-width: 375px) {
-  .hero-header-text {
-    width: 90%;
-    font-size: 25px;
-    line-height: 47px;
-  }
+  line-height: 43px;
+  margin-bottom: 10px;
 }
 @media (min-width: 768px) {
-  .hero-header-text {
+  .hero-header-text h2 {
     width: 120%;
-    font-size: 25px;
+    font-size: 40px;
+    line-height: 50.4px;
     margin-top: -125px;
   }
 }
@@ -115,99 +103,86 @@
   }
 }
 
-.hero-paragraph {
-  font-size: 25px;
-  line-height: 40px;
+.hero-paragraph p {
+  font-size: 14px;
+  line-height: 26px;
   color: #83869a;
   width: 100%;
-}
-@media (min-width: 320px) {
-  .hero-paragraph {
-    font-size: 14px;
-    line-height: 22px;
-  }
-}
-@media (min-width: 375px) {
-  .hero-paragraph {
-    font-size: 15px;
-    width: 92%;
-    line-height: 23px;
-  }
+  font-weight: 400;
 }
 @media (min-width: 768px) {
-  .hero-paragraph {
-    width: 110%;
-    font-size: 15px;
+  .hero-paragraph p {
+    width: 125%;
+    font-size: 16px;
     line-height: 26px;
-    font-weight: 400;
   }
 }
 @media (min-width: 958px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 85%;
   }
 }
 @media (min-width: 1024px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     font-size: 18px;
     width: 115%;
     line-height: 28px;
   }
 }
 @media (min-width: 1030px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 112%;
   }
 }
 @media (min-width: 1078px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 100%;
   }
 }
 @media (min-width: 1134px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 90%;
   }
 }
 @media (min-width: 1192px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 80%;
   }
 }
 @media (min-width: 1262px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 74%;
   }
 }
 @media (min-width: 1292px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 70%;
   }
 }
 @media (min-width: 1354px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 65%;
   }
 }
 @media (min-width: 1408px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 60%;
   }
 }
 @media (min-width: 1440px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 75%;
     font-size: 19px;
   }
 }
 @media (min-width: 1504px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 70%;
   }
 }
 /* this is where I left off */
 @media (min-width: 2560px) {
-  .hero-paragraph {
+  .hero-paragraph p {
     width: 70%;
   }
 }
