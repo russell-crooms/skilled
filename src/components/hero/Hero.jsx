@@ -23,13 +23,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-image-desktop">
-        <img src={hero_image_desktop} alt="" />
+        <img src={hero_image_desktop} alt="Image of a woman working at a desk while drinking from a mug. Text overlay on the image reads 'Members 29k' and 'Course hours 1,451'." />
       </div>
       <div className="hero-image-tablet">
-        <img src={hero_image_tablet} alt="" />
+        <img src={hero_image_tablet} alt="Image of a woman working at a desk while drinking from a mug. Text overlay on the image reads 'Members 29k' and 'Course hours 1,451'." />
       </div>
       <div className="hero-image-mobile">
-        <img src={hero_image_mobile} alt="" />
+        <img src={hero_image_mobile} alt="Image of a woman working at a desk while drinking from a mug. Text overlay on the image reads 'Members 29k' and 'Course hours 1,451'." />
       </div>
     </div>
   );
